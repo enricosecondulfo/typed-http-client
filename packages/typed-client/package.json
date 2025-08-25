@@ -1,0 +1,38 @@
+{
+  "name": "typed-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite-node src/index.ts",
+    "build": "tsdown",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.0",
+  "sideEffects": false,
+  "devDependencies": {
+    "@angular/common": "^20.2.0",
+    "@angular/compiler": "^20.2.0",
+    "@angular/core": "^20.2.0",
+    "@angular/platform-browser": "^20.2.0",
+    "@angular/platform-browser-dynamic": "^20.2.0",
+    "@total-typescript/tsconfig": "^1.0.4",
+    "ngxtension-plugin": "^5.1.0",
+    "openapi-ts": "^0.3.4",
+    "rxjs": "~7.8.0",
+    "tsdown": "^0.14.1",
+    "valibot": "^1.1.0",
+    "vite-node": "^3.2.4",
+    "vitest": "^3.2.4",
+    "zod": "^4.0.17"
+  },
+  "peerDependencies": {
+    "@angular/common": "^20.2.0",
+    "@angular/core": "^20.2.0",
+    "rxjs": "~7.8.0"
+  }
+}
